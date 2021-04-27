@@ -1,0 +1,27 @@
+Script started on Mon Apr 26 21:35:28 2021
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004hlls[?2004l
+Makefile	setBits.c	showBits.c	typescript
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004hmmake setBits.c[1m [0m[0m   [?2004l
+gcc -g -Wall  setBits.c -o setBits
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004h../setBits 4 10 20[?2004l
+Error: a number was out of range: 20. Terminating program.
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004h./setBits 4 10 20f[?2004l
+Error: that was not a digit. Terminating program.
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004h./setBits 4 10 20f 20f  20f h 20fe 20fl 20fl 20fo 20f[?2004l
+Error: that was not a digit. Terminating program.
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004h./setBits 4 hello 20f         2 3 4[?2004l
+0000000000011100
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004h./setBits 2 3 4  10 5[?2004l
+0000010000100100
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004hmmake showBits.c[1m [0m[0m   [?2004l
+gcc -g -Wall  showBits.c -o showBits
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004h../showBits 0x0F[?2004l
+Error: please provide two hexadecimal numbers as arguments to the program.
+Terminating program.
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004h./showBits 0x0F F Ox  )x  0x05[?2004l
+0, 2, in common. Hexadecimal: 5, Signed: 5, Unsigned: 5.
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004h./showBits 0x0F 0x05        [7m0xE0C874A3 0xD49157FF[27m[21D[27m0[27mx[27mE[27m0[27mC[27m8[27m7[27m4[27mA[27m3[27m [27m0[27mx[27mD[27m4[27m9[27m1[27m5[27m7[27mF[27mF[?2004l
+0, 1, 5, 7, 10, 12, 14, 23, 30, 31, in common. Hexadecimal: C08054A3, Signed: -1065331549, Unsigned: 3229635747.
+[1m[7m%[27m[1m[0m                                                                              ]7;file://Allys-MacBook-Air-2.local/Users/ally/PSU-CS201/hw2/allis35[0m[27m[24m[Jally@Allys-MacBook-Air-2 allis35 % [K[?2004heexit[?2004l
+
+Script done on Mon Apr 26 21:37:54 2021
