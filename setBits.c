@@ -51,7 +51,7 @@ main(int argc, char *argv[])
   }
   
   //check validity (range, is digit)
-  for(int j = 1; j < argc; ++j){
+  for(int j = 1; j < argc; j++){
     int num = atoi(argv[j]);
 
     //check if the input is digit
