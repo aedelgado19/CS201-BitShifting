@@ -12,28 +12,22 @@
 
 int main(int argc, char *argv[]){
   unsigned short output = 0;
-  
-  // check if the input is null
-  // (index 0 is ./a.out so index 1 should be an int)
-  if(argv[1] == NULL){
-    printf("Error: you did not enter any numbers.\n");
+
+  //check if the user entered numbers
+  if(argc < 2){
+    printf("Error: You did not enter any numbers.\n");
     exit(1);
-  }
-  
-  //convert all to integers
-  for(int i = 1; i < argc; ++i){
-    argv[i] = atoi(argv[i]);
   }
   
   //check range
   for(int j = 1; j < argc; ++j){
-    if(argv[j] < 0 || argv[j] > 15){
-      printf("Error: a number was out of range: %d\n", argv[j]);
+    int num = atoi(argv[j]);
+    if(num < 0 || num > 15){
+      printf("Error: a number was out of range: %d\n", num);
       exit(1);
     }
-    printf("hi\n");
-    output = (double) output | pow(2, atoi(argv[j]));
+    output = output | (int) pow(2, num);
   }
-  printf("output: %u", output);
+  printf("output: %u\n", output);
   return 0;
 }
